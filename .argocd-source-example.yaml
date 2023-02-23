@@ -1,11 +1,5 @@
 helm:
   parameters:
-  - name: frontend.image
-    value: chengzh/frontend
-    forcestring: true
-  - name: frontend.tag
-    value: main-2fff0b2
-    forcestring: true
   - name: backend.image
     value: chengzh/backend
     forcestring: true
