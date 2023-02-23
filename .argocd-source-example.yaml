@@ -1,0 +1,14 @@
+helm:
+  parameters:
+  - name: frontend.image
+    value: chengzh/frontend
+    forcestring: true
+  - name: frontend.tag
+    value: main-9b5e72a
+    forcestring: true
+  - name: backend.image
+    value: chengzh/backend
+    forcestring: true
+  - name: backend.tag
+    value: main-9b5e72a
+    forcestring: true
