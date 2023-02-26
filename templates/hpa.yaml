@@ -8,7 +8,7 @@ spec:
     name: frontend
     apiVersion: apps/v1
   minReplicas: 2
-  maxReplicas: 10
+  maxReplicas: 4
   metrics:
   - type: Resource
     resource:
