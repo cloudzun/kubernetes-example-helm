@@ -4,5 +4,11 @@ helm:
     value: chengzh/frontend
     forcestring: true
   - name: frontend.tag
-    value: main-8a0ec63
+    value: main-03c296c
+    forcestring: true
+  - name: backend.image
+    value: chengzh/backend
+    forcestring: true
+  - name: backend.tag
+    value: main-03c296c
     forcestring: true
