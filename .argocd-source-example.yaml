@@ -4,5 +4,5 @@ helm:
     value: chengzh/frontend
     forcestring: true
   - name: frontend.tag
-    value: main-8571f7a
+    value: main-847b6e9
     forcestring: true
